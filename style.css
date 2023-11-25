@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    background-color: #141519;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 22.5rem;
+    background-color: #171e28;
+    box-sizing: border-box;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.star {
+    background-color: #252f38;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.8rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-align: center;
+}
+
+p {
+    opacity: .5;
+    text-align: left;
+}
+
+.rates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate {
+    background-color: #252f38;
+    width: 3rem;
+    height: 3rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.rate:hover {
+    background-color: #7c8898 ;
+}
+
+.selectedRate {
+    background-color: #fc7613;
+}
+
+button {
+    all: unset;
+    background-color: #fc7613;
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 20rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #fc7613;
+}
+
+.thank {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.yourRate {
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    border-radius: 5rem;
+    background-color: #252f38;
+    color: #fc7613;
+    font-weight: bold;
+}
+
+.thank p {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+}
